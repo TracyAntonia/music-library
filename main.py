@@ -62,7 +62,7 @@ def create_artist(artist_name, creation_date):
    
 def create_playlist(songs):
     print("Create a Favorites Playlist")
-    playlist_name = input("Enter the name of your favorites playlist: ")
+    playlist_name = input("Enter the name of the playlist: ")
     playlist = []
 
     # Display available songs
@@ -286,7 +286,7 @@ if __name__ == '__main__':
                 print("**<<You are no longer on the main menu.>>**")
                 print("**<<Thank you for choosing BOOMBOX MUSIC LIBRARY.>>**")
                 print("**<<Run the program again to get back to the main menu.>>**")
-
+                break
             # Unrecognized input and validates user's input
             else:
                 print("*<<Incorrect Input.>>**")
