@@ -202,7 +202,7 @@ if __name__ == '__main__':
                 print("**<<Adding a Song...>>**")
                 song_title = input("Enter the name of the song: ")
                 artist_name = input("Enter the name of the artist: ")
-                duration = input("Enter the duration of the song: ")
+                duration = input("Enter the duration of the song in seconds: ")
                 creation_date = input("Enter the creation date of the song as an integer: ")
 
                 # Convert the creation date to an integer
